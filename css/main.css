@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+    font-size: 100%; 
+}
+  
+  html {
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden; 
+    background-color: #EA195D;
+    font-family: "Robot-Condensed", sans-serif;
+}
+/* 
+canvas { border: 1px solid black; } */
+
+#container, #nav {
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+#svgs {
+    display: flex;
+    flex-flow: row-reverse;
+    padding: 0;
+    margin: 0 auto;
+}
+
+.shape {
+    height: 44.8rem;
+    z-index: 1;
+}
+
+.logo {
+    width: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    left: 17.5rem;
+    margin-top: -10rem;
+    z-index: 1;
+    animation-name: fade;
+    animation-duration: 3000ms;
+    animation-timing-function: ease-in;
+    animation-delay: 50ms;
+    animation-iteration-count: inherit;
+    transform-origin: 50% 50%;
+}
+
+.logo img {
+    width: 100%;
+}
+
+#nav ul {
+    display: flex;
+    flex-flow: row;
+    position: relative;
+    z-index: 2;
+    justify-content: center;
+    margin-top: -10rem;
+    margin-left: -7rem;   
+}
+
+#nav li {
+    list-style: none;
+    margin-left: 7rem;
+    margin-right: 7rem;
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    font-size: 1.25em;
+
+}
+
+/* .polygon1 {
+    animation-name: spin;
+    animation-duration: 3000ms;
+    animation-timing-function: ease-in;
+    animation-delay: 50ms;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+}
+
+.polygon2 {
+
+} */
+
+#nav a {
+    text-decoration: none;
+    color: rgb(58, 255, 166);
+}
+
+#nav a:hover {
+    color: #EA195D;
+}
+
+#footer {
+    text-align: center;
+    position: relative;
+    margin-top: 7rem;
+}
+
+/* // Animations */
+
+@keyframes fade {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+    from {margin-top: 100%;}
+    to {margin-top: -10%;}
+ }
+
+ @keyframes spin {
+     0% {transform: rotate(0deg);}
+     50% {transform: rotate(360deg);}
+     100% {transform: rotate(0deg);}
+ }
+
+ @keyframes reverse {
+     0% {transform: rotate(0deg);}
+     50% {transform: rotate(-360deg);}
+     100%{transform: rotate(0deg);}
+ }

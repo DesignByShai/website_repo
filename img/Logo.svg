@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="878px" height="410px" viewBox="0 0 878 410" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>Logo</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="index" transform="translate(-87.000000, -253.000000)">
+            <g id="Logo" transform="translate(87.000000, 253.000000)">
+                <rect id="Rectangle-10" fill="#D50A4C" x="0" y="0" width="524" height="410"></rect>
+                <rect id="Rectangle-10" fill="#E10B51" x="350" y="72" width="524" height="271"></rect>
+                <polygon id="Polygon" fill="#3AFFA6" points="454.178801 27.9615242 610.94606 118.471143 610.94606 299.490381 454.178801 390 297.411543 299.490381 297.411543 118.471143"></polygon>
+                <polygon id="Polygon" fill="#23C97E" points="451.582957 71.9615242 568.94606 139.721143 568.94606 275.240381 451.582957 343 334.219854 275.240381 334.219854 139.721143"></polygon>
+                <polygon id="Rectangle-3" fill="#0B044C" points="64.45125 154 878 154 831.085 278 25 278"></polygon>
+                <polygon id="Rectangle-3" fill="#12130F" points="62.45125 138 876 138 829.085 262 23 262"></polygon>
+                <text id="SHAI-BENDER-DESIGN" font-family="RobotoCondensed-LightItalic, Roboto Condensed" font-size="72" font-style="italic" font-weight="300" letter-spacing="7.19000006">
+                    <tspan x="66.8681245" y="221" fill="#FBF8FA">SHAI BENDER </tspan>
+                    <tspan x="551.749688" y="221" fill="#3AFFA6">DESIGN</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
